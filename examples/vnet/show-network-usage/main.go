@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/transport/vnet"
-	"github.com/pion/webrtc/v3"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/vnet"
+	"github.com/carrotsong/webrtc/v3"
 )
 
 /* VNet Configuration

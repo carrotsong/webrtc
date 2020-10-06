@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/dtls/v2"
-	"github.com/pion/dtls/v2/pkg/crypto/fingerprint"
-	"github.com/pion/srtp"
-	"github.com/pion/webrtc/v3/internal/mux"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/dtls/v2"
+	"github.com/carrotsong/dtls/v2/pkg/crypto/fingerprint"
+	"github.com/carrotsong/srtp"
+	"github.com/carrotsong/webrtc/v3/internal/mux"
+	"github.com/carrotsong/webrtc/v3/internal/util"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 )
 
 // DTLSTransport allows an application access to information about the DTLS

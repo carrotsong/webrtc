@@ -7,8 +7,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/pion/rtcp"
-	"github.com/pion/srtp"
+	"github.com/carrotsong/rtcp"
+	"github.com/carrotsong/srtp"
 )
 
 // trackStreams maintains a mapping of RTP/RTCP streams to a specific track

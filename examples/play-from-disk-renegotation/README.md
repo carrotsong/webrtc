@@ -9,9 +9,9 @@ For a simpler example of playing a file from disk we also have [examples/play-fr
 This example requires you to clone the repo since it is serving static HTML.
 
 ```
-mkdir -p $GOPATH/src/github.com/pion
-cd $GOPATH/src/github.com/pion
-git clone https://github.com/pion/webrtc.git
+mkdir -p $GOPATH/src/github.com/carrotsong
+cd $GOPATH/src/github.com/carrotsong
+git clone https://github.com/carrotsong/webrtc.git
 cd webrtc/examples/play-from-disk-renegotiation
 ```
 

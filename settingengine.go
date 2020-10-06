@@ -5,10 +5,10 @@ package webrtc
 import (
 	"time"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/logging"
-	"github.com/pion/sdp/v3"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/ice/v2"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/sdp/v3"
+	"github.com/carrotsong/transport/vnet"
 )
 
 // SettingEngine allows influencing behavior in ways that are not

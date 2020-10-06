@@ -7,9 +7,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/pion/randutil"
-	"github.com/pion/rtp"
-	"github.com/pion/rtp/codecs"
+	"github.com/carrotsong/randutil"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/rtp/codecs"
 )
 
 const (

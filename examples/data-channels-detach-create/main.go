@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
+	"github.com/carrotsong/webrtc/v3"
+	"github.com/carrotsong/webrtc/v3/examples/internal/signal"
 )
 
 const messageSize = 15

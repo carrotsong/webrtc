@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/logging"
-	"github.com/pion/sdp/v3"
+	"github.com/carrotsong/ice/v2"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/sdp/v3"
 )
 
 // trackDetails represents any media source that can be represented in a SDP

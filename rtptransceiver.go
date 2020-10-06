@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/pion/rtp"
-	"github.com/pion/sdp/v3"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/sdp/v3"
 )
 
 // RTPTransceiver represents a combination of an RTPSender and an RTPReceiver that share a common mid.

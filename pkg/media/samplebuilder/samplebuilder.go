@@ -2,8 +2,8 @@
 package samplebuilder
 
 import (
-	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v3/pkg/media"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/webrtc/v3/pkg/media"
 )
 
 // SampleBuilder buffers packets until media frames are complete.
@@ -33,7 +33,7 @@ type SampleBuilder struct {
 // maxLate is measured in RTP packet sequence numbers.
 // A large maxLate will result in less packet loss but higher latency.
 // The depacketizer extracts media samples from RTP packets.
-// Several depacketizers are available in package github.com/pion/rtp/codecs.
+// Several depacketizers are available in package github.com/carrotsong/rtp/codecs.
 func New(maxLate uint16, depacketizer rtp.Depacketizer, opts ...Option) *SampleBuilder {
 	s := &SampleBuilder{maxLate: maxLate, depacketizer: depacketizer}
 	for _, o := range opts {
@@ -160,7 +160,7 @@ func (s *SampleBuilder) PopWithTimestamp() (*media.Sample, uint32) {
 type Option func(o *SampleBuilder)
 
 // WithPartitionHeadChecker assigns a codec-specific PartitionHeadChecker to SampleBuilder.
-// Several PartitionHeadCheckers are available in package github.com/pion/rtp/codecs.
+// Several PartitionHeadCheckers are available in package github.com/carrotsong/rtp/codecs.
 func WithPartitionHeadChecker(checker rtp.PartitionHeadChecker) Option {
 	return func(o *SampleBuilder) {
 		o.partitionHeadChecker = checker

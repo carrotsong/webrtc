@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/pion/rtp"
-	"github.com/pion/rtp/codecs"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/rtp/codecs"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/pion/rtp"
+	"github.com/carrotsong/rtp"
 	"github.com/stretchr/testify/assert"
 )
 

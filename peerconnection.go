@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/logging"
-	"github.com/pion/rtcp"
-	"github.com/pion/sdp/v3"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/ice/v2"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/rtcp"
+	"github.com/carrotsong/sdp/v3"
+	"github.com/carrotsong/webrtc/v3/internal/util"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 )
 
 // PeerConnection represents a WebRTC connection that establishes a

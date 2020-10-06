@@ -1,6 +1,6 @@
 package signal
 
-import "github.com/pion/randutil"
+import "github.com/carrotsong/randutil"
 
 // RandSeq generates a random string to serve as dummy data
 //

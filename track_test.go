@@ -5,7 +5,7 @@ package webrtc
 import (
 	"testing"
 
-	"github.com/pion/randutil"
+	"github.com/carrotsong/randutil"
 	"github.com/stretchr/testify/assert"
 )
 

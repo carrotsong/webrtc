@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pion/quic"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
+	"github.com/carrotsong/quic"
+	"github.com/carrotsong/webrtc/v3"
+	"github.com/carrotsong/webrtc/v3/examples/internal/signal"
 )
 
 const messageSize = 15

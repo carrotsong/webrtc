@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/randutil"
-	"github.com/pion/rtcp"
-	"github.com/pion/sdp/v3"
-	"github.com/pion/transport/test"
-	"github.com/pion/webrtc/v3/pkg/media"
+	"github.com/carrotsong/randutil"
+	"github.com/carrotsong/rtcp"
+	"github.com/carrotsong/sdp/v3"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,7 +4,7 @@
 
 We've built an extensive collection of examples covering common use-cases. You can modify and extend these examples to get started quickly.
 
-For more full featured examples that use 3rd party libraries see our **[example-webrtc-applications](https://github.com/pion/example-webrtc-applications)** repo.
+For more full featured examples that use 3rd party libraries see our **[example-webrtc-applications](https://github.com/carrotsong/example-webrtc-applications)** repo.
 
 ### Overview
 #### Media API
@@ -36,9 +36,9 @@ We've made it easy to run the browser based examples on your local machine.
 
 1. Build and run the example server:
     ``` sh
-    GO111MODULE=on go get github.com/pion/webrtc/v3
-    git clone https://github.com/pion/webrtc.git $GOPATH/src/github.com/pion/webrtc
-    cd $GOPATH/src/github.com/pion/webrtc/examples
+    GO111MODULE=on go get github.com/carrotsong/webrtc/v3
+    git clone https://github.com/carrotsong/webrtc.git $GOPATH/src/github.com/carrotsong/webrtc
+    cd $GOPATH/src/github.com/carrotsong/webrtc/examples
     go run examples.go
     ```
 

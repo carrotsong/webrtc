@@ -5,8 +5,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/pion/logging"
-	"github.com/pion/transport/packetio"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/packetio"
 )
 
 // The maximum amount of data that can be buffered before returning errors.

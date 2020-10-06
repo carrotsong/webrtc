@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pion/rtp"
-	"github.com/pion/rtp/codecs"
-	"github.com/pion/sdp/v3"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/rtp/codecs"
+	"github.com/carrotsong/sdp/v3"
 )
 
 // PayloadTypes for the default codecs
@@ -42,7 +42,7 @@ type MediaEngine struct {
 func (m *MediaEngine) RegisterCodec(codec *RTPCodec) uint8 {
 	// nolint:godox
 	// TODO: dynamically generate a payload type in the range 96-127 if one wasn't provided.
-	// See https://github.com/pion/webrtc/issues/43
+	// See https://github.com/carrotsong/webrtc/issues/43
 	m.codecs = append(m.codecs, codec)
 	return codec.PayloadType
 }

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/pion/randutil"
+	"github.com/carrotsong/randutil"
 )
 
 const (

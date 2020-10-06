@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/randutil"
-	"github.com/pion/transport/test"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/media"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/randutil"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/webrtc/v3/internal/util"
+	"github.com/carrotsong/webrtc/v3/pkg/media"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

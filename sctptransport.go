@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/datachannel"
-	"github.com/pion/logging"
-	"github.com/pion/sctp"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/datachannel"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/sctp"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 )
 
 const sctpMaxChannels = uint16(65535)

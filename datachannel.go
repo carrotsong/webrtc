@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/datachannel"
-	"github.com/pion/logging"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/datachannel"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 )
 
 const dataChannelBufferSize = math.MaxUint16 // message size limit for Chromium

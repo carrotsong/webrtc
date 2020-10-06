@@ -3,8 +3,8 @@ package webrtc
 import (
 	"net"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/logging"
+	"github.com/carrotsong/ice/v2"
+	"github.com/carrotsong/logging"
 )
 
 // NewICETCPMux creates a new instance of ice.TCPMuxDefault. It enables use of

@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/pion/randutil"
-	"github.com/pion/rtcp"
-	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
+	"github.com/carrotsong/randutil"
+	"github.com/carrotsong/rtcp"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/webrtc/v3"
+	"github.com/carrotsong/webrtc/v3/examples/internal/signal"
 )
 
 func main() { // nolint:gocognit

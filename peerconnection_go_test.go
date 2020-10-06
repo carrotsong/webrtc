@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/rtp"
-	"github.com/pion/transport/test"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/carrotsong/ice/v2"
+	"github.com/carrotsong/rtp"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/webrtc/v3/internal/util"
+	"github.com/carrotsong/webrtc/v3/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 )
 

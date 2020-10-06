@@ -3,7 +3,7 @@
 package webrtc
 
 import (
-	"github.com/pion/logging"
+	"github.com/carrotsong/logging"
 )
 
 // API bundles the global functions of the WebRTC and ORTC API.
